@@ -1,0 +1,5 @@
+pos	Gene_ID	Chrom	REF	ALT	Effect_type	Description
+4952948	Glyma.18G056600	18	T	C	Nonsynonymous SNV	c.T5C;p.I2T
+4953024	Glyma.18G056600	18	G	T	Nonsynonymous SNV	c.G81T;p.K27N
+4953207	Glyma.18G056600	18	C	T	Synonymous SNV	c.C264T;p.N88N
+4956132	Glyma.18G056600	18	G	A	three_prime_UTR	

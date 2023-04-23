@@ -1,0 +1,6 @@
+Haplotype	Country	Pattern	Frequency	Min	1st.Qu	Median	Mean	3rd.Qu	Max	Class
+Hap1		CTC	348	28.98	45.285	55.925	56.0548275862069	66.0025	99.82	specific
+Hap2		TGC	210	24.57	51.84	60.7	60.566	68.31	98.62	reference
+Hap3		TTC	63	21.73	48.4	56.15	56.0101587301587	64.175	81.75	specific
+Hap4		CGC	46	32.33	49.44	57.7	58.0710869565217	64.2325	94.48	specific
+Hap5		CTT	1	48.78	48.78	48.78	48.78	48.78	48.78	specific

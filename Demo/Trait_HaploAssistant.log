@@ -1,0 +1,43 @@
+###################################
+### Logs for HaploAssistant ###
+###################################
+
+Date: Fri Apr 21 15:49:20 2023
+##########################
+### PARAMETERS SETTING ###
+##########################
+
+dirPath: E:/Graduation.related/HaploAssistant
+trait: Trait
+categoryFile: ./Input.files/Trait.category.csv
+gffFile: ./Basic.files/gff.file/Wm82.a2.v1.gene.gff
+genomeFasta: ./Basic.files/Genome/Gmax_275_v2.0.fa
+phenoFile: ./Input.files/Trait.csv
+geneModel: Glyma.18G056600
+genoFile: ./Input.files/Hapmap_Gm18.hapmap
+GenoTransforming: FALSE
+GenoExtract: TRUE
+GeoPlotting: TRUE
+categoryTransforming: FALSE
+haploMin: 10
+size: 5
+mapData: ./Basic.files/map.source/China.json
+type: countries
+region: China
+mapResolution: 50
+longLim: 
+latLim: 
+mapBorderSize: 0.1
+landColor: lightyellow
+oceanColor: white
+pieMax: 2
+expand: TRUE
+pieLinetype: 2
+pieBorderColor: NA
+pieLinesize: 0
+pieAlpha: 0.8
+label_graticule: EW
+MappingDataType: haplotype
+dataFiltration : 
+
+# END

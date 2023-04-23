@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN DATA;
+  DIMENSIONS NTAX=5 nchar=3;
+  Format datatype=DNA missing=N gap=-;
+  Matrix
+Hap1 CTC
+Hap2 TGC
+Hap3 TTC
+Hap4 CGC
+Hap5 CTT
+;
+
+END;
+
+
+BEGIN TRAITS;
+  Dimensions NTRAITS=2;
+  Format labels=yes missing=? separator=Comma;
+  TraitLabels Improved_cultivar Landrace;
+  Matrix
+Hap1 81,267
+Hap2 85,125
+Hap3 21,42
+Hap4 16,30
+Hap5 1,0
+;
+
+END;

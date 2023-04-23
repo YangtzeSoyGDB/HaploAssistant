@@ -1,0 +1,20 @@
+Package: HaploAssistant
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.3
+Authors@R: 
+    person("Jun", "Wang", , "wangjagri@yangtzeu.edu.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Imports: data.table,parallel,  Biostrings,  data.table,  stringr,  tidyr,  dplyr,reshape2,  tidyverse, 
+	rworldxtra,  RColorBrewer,  rnaturalearthdata,  rworldmap,  rnaturalearth,  ggplot2,   
+	scatterpie,  rgeos,  pacman,  grDevices,  randomcoloR,ggplot2,  ggpubr,  ggseqlogo, 
+	 parallel, gggenes,  ggrepel,dplyr,  multcomp, xlsx, magrittr, sp
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2023-04-18 00:55:54 UTC; hp
+Author: Jun Wang [aut, cre] (YOUR-ORCID-ID)
+Maintainer: Jun Wang <wangjagri@yangtzeu.edu.cn>

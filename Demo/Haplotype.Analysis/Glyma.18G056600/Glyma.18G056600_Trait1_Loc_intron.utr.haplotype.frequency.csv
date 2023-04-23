@@ -1,0 +1,3 @@
+Haplotype	Country	Pattern	Frequency	Min	1st.Qu	Median	Mean	3rd.Qu	Max	Class
+Hap1		GG	663	17	32.46	38.78	40.5278582202112	47.775	110.57	reference
+Hap2		AA	7	21.95	25.27	28.2	29.22	33.985	35.88	specific

@@ -1,0 +1,43 @@
+
+####### haplotype identification of Glyma.18G056600 ######
+
+	Country	Trait	Category	HaploSeq	SeqN
+	gene.related	Trait1	Type	TGC	3
+	gene.related	Trait2	Type	TGC	3
+	gene.related	Trait3	Type	TGC	3
+	gene.related	Trait4	Type	TGC	3
+	gene.related	Trait1	Loc	TGC	3
+	gene.related	Trait2	Loc	TGC	3
+	gene.related	Trait3	Loc	TGC	3
+	gene.related	Trait4	Loc	TGC	3
+	gene.related	Trait1	Class	TGC	3
+	gene.related	Trait2	Class	TGC	3
+	gene.related	Trait3	Class	TGC	3
+	gene.related	Trait4	Class	TGC	3
+	in.total	Trait1	Type	TGCG	4
+	in.total	Trait2	Type	TGCG	4
+	in.total	Trait3	Type	TGCG	4
+	in.total	Trait4	Type	TGCG	4
+	in.total	Trait1	Loc	TGCG	4
+	in.total	Trait2	Loc	TGCG	4
+	in.total	Trait3	Loc	TGCG	4
+	in.total	Trait4	Loc	TGCG	4
+	in.total	Trait1	Class	TGCG	4
+	in.total	Trait2	Class	TGCG	4
+	in.total	Trait3	Class	TGCG	4
+	in.total	Trait4	Class	TGCG	4
+	intron.utr	Trait1	Type	GG	2
+	intron.utr	Trait2	Type	GG	2
+	intron.utr	Trait3	Type	GG	2
+	intron.utr	Trait4	Type	GG	2
+	intron.utr	Trait1	Loc	GG	2
+	intron.utr	Trait2	Loc	GG	2
+	intron.utr	Trait3	Loc	GG	2
+	intron.utr	Trait4	Loc	GG	2
+	intron.utr	Trait1	Class	GG	2
+	intron.utr	Trait2	Class	GG	2
+	intron.utr	Trait3	Class	GG	2
+	intron.utr	Trait4	Class	GG	2
+
+ ###### THE END ######
+

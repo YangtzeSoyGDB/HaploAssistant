@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN DATA;
+  DIMENSIONS NTAX=5 nchar=3;
+  Format datatype=DNA missing=N gap=-;
+  Matrix
+Hap1 CTC
+Hap2 TGC
+Hap3 TTC
+Hap4 CGC
+Hap5 CTT
+;
+
+END;
+
+
+BEGIN TRAITS;
+  Dimensions NTRAITS=1;
+  Format labels=yes missing=? separator=Comma;
+  TraitLabels China;
+  Matrix
+Hap1 348,,348
+Hap2 210,,210
+Hap3 63,,63
+Hap4 46,,46
+Hap5 1,,1
+;
+
+END;

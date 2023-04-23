@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN DATA;
+  DIMENSIONS NTAX=8 nchar=4;
+  Format datatype=DNA missing=N gap=-;
+  Matrix
+Hap1 CTCG
+Hap2 TGCG
+Hap3 TTCG
+Hap4 CGCG
+Hap5 CTCA
+Hap6 CGCA
+Hap7 CTTG
+Hap8 TTCA
+;
+
+END;
+
+
+BEGIN TRAITS;
+  Dimensions NTRAITS=29;
+  Format labels=yes missing=? separator=Comma;
+  TraitLatitude 45.76 41.48 40.82 39.54 38.03 37.51 38.28 43.46 34.15 36.03 36.03 34.46 32.04 31.52 30.52 30.15 28.42 30.67 24.26 26.57 22.47 23.10 20.03 25.02 28.12 34.50 43.55 25.03 29.36;
+  TraitLongitude 126.64 123.23 111.65 116.28 114.26 112.33 106.13 87.36 108.55 103.50 120.18 113.40 118.75 117.17 115.32 120.10 115.53 104.06 118.04 106.72 108.21 113.18 111.10 121.31 112.59 121.43 125.18 102.42 91.06;
+  TraitLabels HeiLongJiang LiaoNing NeiMengGu BeiJing HeBei ShanXi NingXia XinJiang ShaanXi GanSu ShanDong HeNan JiangSu AnHui HuBei ZheJiang JiangXi SiChuan FuJian GuiZhou GuangXi GuangDong HaiNan TaiWan HuNan ShangHai JiLin YunNan Tibet;
+  Matrix
+Hap1 49,13,0,5,14,14,0,1,11,5,18,19,18,10,16,19,10,38,8,18,10,6,1,1,8,1,26,2,1
+Hap2 31,24,5,18,24,38,2,1,2,2,14,3,6,4,4,4,0,4,1,2,0,1,0,0,1,0,18,1,0
+Hap3 14,4,0,1,2,3,0,0,0,0,1,1,8,2,5,4,4,5,1,1,0,1,0,0,0,0,5,0,0
+Hap4 12,3,0,2,1,3,0,0,2,2,0,4,1,2,0,1,2,2,0,2,0,0,0,0,1,0,5,0,0
+Hap5 0,0,0,0,0,0,0,0,0,0,0,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hap6 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hap7 0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hap8 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+;
+
+END;

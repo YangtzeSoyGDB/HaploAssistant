@@ -1,0 +1,8 @@
+
+###### regional geno extraction from hapmap ######
+
+sampleHapmapFile: E:/Graduation.related/HaploAssistant/Trait_geno.extracted.from.hapmap/
+gffFile: ./Basic.files/gff.file/Wm82.a2.v1.gene.gff
+geneModel: ./Basic.files/gff.file/Wm82.a2.v1.gene.gff
+Date: Fri Apr 21 15:44:07 2023
+

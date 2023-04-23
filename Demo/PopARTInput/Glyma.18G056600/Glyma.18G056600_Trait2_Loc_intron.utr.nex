@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN DATA;
+  DIMENSIONS NTAX=2 nchar=2;
+  Format datatype=DNA missing=N gap=-;
+  Matrix
+Hap1 GG
+Hap2 AA
+;
+
+END;
+
+
+BEGIN TRAITS;
+  Dimensions NTRAITS=29;
+  Format labels=yes missing=? separator=Comma;
+  TraitLatitude 45.76 41.48 40.82 39.54 38.03 37.51 38.28 43.46 34.15 36.03 36.03 34.46 32.04 31.52 30.52 30.15 28.42 30.67 24.26 26.57 22.47 23.10 20.03 25.02 28.12 34.50 43.55 25.03 29.36;
+  TraitLongitude 126.64 123.23 111.65 116.28 114.26 112.33 106.13 87.36 108.55 103.50 120.18 113.40 118.75 117.17 115.32 120.10 115.53 104.06 118.04 106.72 108.21 113.18 111.10 121.31 112.59 121.43 125.18 102.42 91.06;
+  TraitLabels HeiLongJiang LiaoNing NeiMengGu BeiJing HeBei ShanXi NingXia XinJiang ShaanXi GanSu ShanDong HeNan JiangSu AnHui HuBei ZheJiang JiangXi SiChuan FuJian GuiZhou GuangXi GuangDong HaiNan TaiWan HuNan ShangHai JiLin YunNan Tibet;
+  Matrix
+Hap1 106,45,5,26,42,58,3,2,15,9,33,27,34,18,25,28,16,49,10,23,10,8,1,1,10,1,54,3,1
+Hap2 0,0,0,0,0,0,0,0,0,0,0,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+;
+
+END;
